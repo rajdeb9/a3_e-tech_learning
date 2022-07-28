@@ -1,23 +1,72 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    /* section one *
 /* section three courses section start */
 .course-section .main-course {
     margin-top: 30px;
 }
 .course-section .custom-img img{
-    width: 100%
+    width: 900px;
 }
+ /* section five join section start */
+.join-area .cus-btn {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}  
+/*  section six success section start */
+.success-area .courses {
+    display: flex;
+    justify-content: center;
+   margin-left: 5px;
  }
-
+}
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+/* section three courses section start */
+.course-section .main-course {
+    margin-top: 30px;
+}
+.course-section .custom-img img{
+    width: 900px;
+}
+ /* section five join section start */
+.join-area .cus-btn {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}   
  }
+ 
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-
+/* first section */
+.custom-slide {
+    margin-bottom: 30px;
+}
+.custom-slide h1 {
+   font-size: 30px;
+   word-spacing: 5px;
+}
+/* section three courses section start */
+.course-section .main-course {
+    margin-top: 30px;
+}
+.course-section .custom-img img{
+    width: 300px;
+}
+ /* section five join section start */
+.join-area .cus-btn {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+/* section five join section start */
+.success-area .courses {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
  }
+}
+ 
 
 /* // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }
@@ -27,3 +76,4 @@
 
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width */
+
